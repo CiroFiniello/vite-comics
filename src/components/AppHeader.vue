@@ -71,6 +71,9 @@ nav{
                 &.active{
                     color: $active_color;
                 }
+                &:hover{
+                    color:$active_color;
+                }
             }
         }
 }
