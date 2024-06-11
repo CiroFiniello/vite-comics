@@ -19,7 +19,7 @@ export default {
 </ul>
 <ul>
     <li class="navbar">
-        
+
     </li>
 </ul>
 </template>
