@@ -3,6 +3,58 @@ export default {
     data() {
         return 
             {
+                navbarLinks:[
+                    {
+                        id: 1,
+                        title: 'CHARACTERS',
+                        active: false,
+                    },
+                    {
+                        id: 2,
+                        title: 'COMICS',
+                        active: false,
+                    },
+                    {
+                        id: 3,
+                        title: 'MOVIES',
+                        active: false,
+                    },
+                    {
+                        id: 4,
+                        title: 'TV',
+                        active: false,
+                    },
+                    {
+                        id: 5,
+                        title: 'GAMES',
+                        active: false,
+                    },
+                    {
+                        id: 6,
+                        title: 'COLLECTIBLES',
+                        active: false,
+                    },
+                    {
+                        id: 7,
+                        title: 'VIDEOS',
+                        active: false,
+                    },
+                    {
+                        id: 8,
+                        title: 'FANS',
+                        active: false,
+                    },
+                    {
+                        id: 9,
+                        title: 'NEWS',
+                        active: false,
+                    },
+                    {
+                        id: 10,
+                        title: 'SHOP',
+                        active: false,
+                    },
+                ]
         }
     }
 }
@@ -11,7 +63,7 @@ export default {
 <template>
     <nav>
         <ul>
-            <li>
+            <li class="logo">
                 <img src="../assets/img/dc-logo.png" alt="logo">
             </li>
         </ul>
@@ -48,10 +100,15 @@ nav{
             display: flex;
             width: 100%;
             // justify-content: space-between;
-            
+            // justify-content: space-evenly;
+            .logo{
+                position: absolute;
+                left: 13%;
+            }
             li{
                 padding: 1rem;
                 list-style-type: none;
+                font-size: 1.5rem;
                 &.active{
                     color: $active_color;
                 }
