@@ -26,10 +26,7 @@ export default {
 </template>
 
 <style lang="scss">
-@use'./styles/general.scss'
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+@use'./styles/general.scss' as *;
+@use'./styles/partials/variables' as *;
+@use'./styles/partials/mixins' as *;
 </style>
