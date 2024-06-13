@@ -1,20 +1,25 @@
 <script>
+import ListCards from './ListCards.vue'
+
 export default {
     data() {
         return 
             {
         }
+    },
+        components:{
+            ListCards
     }
 }
 </script>
 
 <template>
-    <div class="jumbotron">
-    </div>
-    <button>CURRENT SERIES</button>
-    <div class="cards">
-
-    </div>
+    <main>
+        <div class="jumbotron">
+        </div>
+        <button>CURRENT SERIES</button>
+        <ListCards />
+    </main>
 </template>
 
 <style lang="scss" scoped>

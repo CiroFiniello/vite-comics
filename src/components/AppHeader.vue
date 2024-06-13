@@ -55,8 +55,6 @@ nav{
             align-items: center;
             display: flex;
             width: 100%;
-            // justify-content: space-between;
-            // justify-content: space-evenly;
             .logo{
                 position: absolute;
                 left: 13%;
