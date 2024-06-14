@@ -88,7 +88,7 @@ export default {
 <template>
     <section class="list-cards">
         <div class="cards">
-            <SingleCard v-for="(card , index) in cardsList" :key="index" :singleCard="card" />
+            <singleCard v-for="(card , index) in cardsList" :key="index" :singleCard="card" />
         </div>
     </section>
 </template>
